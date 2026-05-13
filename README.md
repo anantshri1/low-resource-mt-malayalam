@@ -25,8 +25,8 @@ The two models are evaluated on different validation sets — BPCC val (general 
 
 | Phase | Data | Epochs | LR | BLEU |
 |-------|------|--------|----|------|
-| Baseline | BPCC (80/20 split) | 5 | 5e-5 | 20.25 (train) / 15.48 (inference) |
-| Domain adaptation | Shiksha (80/20 split) | 4 | 2e-5 | 32.65 |
+| [Baseline](https://huggingface.co/anantshri1/marian-en-ml-bpcc) | BPCC (80/20 split) | 5 | 5e-5 | 20.25 (train) / 15.48 (inference) |
+| [Domain adaptation](https://huggingface.co/anantshri1/marian-en-ml-shiksha) | Shiksha (80/20 split) | 4 | 2e-5 | 32.65 |
 
 Batch size 32, fp16, `beam search (num_beams=4)`, `max_length=256`.
 
