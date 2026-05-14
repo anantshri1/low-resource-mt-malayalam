@@ -1,6 +1,6 @@
 # Low-Resource Neural Machine Translation: English to Malayalam
 
-Fine-tuning `Helsinki-NLP/opus-mt-en-dra` (MarianMT) for English→Malayalam translation, with domain adaptation on technical lecture data. Evaluated on out-of-domain ML/scientific text.
+Fine-tuning `Helsinki-NLP/opus-mt-en-dra` (MarianMT) for English→Malayalam translation (a low-resource pair where general-purpose models fail on technical vocabulary), with domain adaptation on technical lecture data. Evaluated on out-of-domain ML/scientific text.
 
 
 ## Results
